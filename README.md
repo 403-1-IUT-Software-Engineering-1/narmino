@@ -1,6 +1,6 @@
 # NARMINO
 
-This repository is related to software engineering course labratory in [Fall 1403 semester]
+This repository is related to software engineering course labratory in [Fall 1403 semester].
 
 Our project was about the "Secure E-Voting System".
 
