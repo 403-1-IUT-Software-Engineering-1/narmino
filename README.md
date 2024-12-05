@@ -15,3 +15,4 @@ Our project was about the "Secure E-Voting System".
   - [user story](user_story/Narmino_SE_user_story.pdf)
 - [x] use-case diagrams
   - [use-case diagrams](use_case_diagrams/)
+  - You can view the *.drawio files using the [draw.io](draw.io) site
