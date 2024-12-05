@@ -1,0 +1,43 @@
+\contentsline {section}{\numberline {1}داستان کاربر (\lr {User Story})}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}کاربر رأی‌دهنده (\lr {Voter})}{3}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}صفحه ورود و ثبت‌نام}{3}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}صفحه اصلی}{3}{subsubsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.3}گام احراز هویت}{4}{subsubsection.1.1.3}%
+\contentsline {subsubsection}{\numberline {1.1.4}گام دریافت توکن رأی}{5}{subsubsection.1.1.4}%
+\contentsline {subsubsection}{\numberline {1.1.5}گام ارسال توکن رأی یا به صندوق انداختن رأی}{5}{subsubsection.1.1.5}%
+\contentsline {subsubsection}{\numberline {1.1.6}گام مشاهده نتایج}{5}{subsubsection.1.1.6}%
+\contentsline {subsubsection}{\numberline {1.1.7}گام راستی‌آزمایی}{6}{subsubsection.1.1.7}%
+\contentsline {subsection}{\numberline {1.2}مدیر انتخابات (\lr {Election Admin})}{6}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}تنظیمات انتخابات}{6}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}مدیریت مشارکت‌کنند‌گان در شبکه بلاک‌چین}{7}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}مدیریت پشتیبان‌ها}{7}{subsubsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.4}مدیریت وبلاگ}{7}{subsubsection.1.2.4}%
+\contentsline {subsubsection}{\numberline {1.2.5}مدیریت ارتباط با سرور ارسال رمز پویا}{8}{subsubsection.1.2.5}%
+\contentsline {subsubsection}{\numberline {1.2.6}مدیریت ارتباط با \lr {Boot Node}}{8}{subsubsection.1.2.6}%
+\contentsline {subsubsection}{\numberline {1.2.7}مدیریت ارتباط با سامانه ثبت‌احوال}{8}{subsubsection.1.2.7}%
+\contentsline {subsubsection}{\numberline {1.2.8}مدیریت بخش کاربران}{8}{subsubsection.1.2.8}%
+\contentsline {subsubsection}{\numberline {1.2.9}مشاهده دفتر کل توزیع شده}{9}{subsubsection.1.2.9}%
+\contentsline {subsection}{\numberline {1.3}تأییدکنند‌گان اثبات صلاحیت در شبکه بلاک‌چین}{9}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}\lr {Boot Node}}{9}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}بخش پشتیبانی}{9}{subsection.1.5}%
+\contentsline {subsubsection}{\numberline {1.5.1}پروفایل}{9}{subsubsection.1.5.1}%
+\contentsline {subsubsection}{\numberline {1.5.2}مشاهده لیست سؤالات جدید}{9}{subsubsection.1.5.2}%
+\contentsline {section}{\numberline {2}فرآیندها}{10}{section.2}%
+\contentsline {subsection}{\numberline {2.1}فرآیندهای کاربر رأی‌دهنده}{10}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}فرآیند ثبت‌نام}{10}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}فرآیند احراز هویت}{11}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}فرآیند دریافت توکن رأی}{11}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}فرآیند ارسال توکن رأی برای بلاک‌چین یا به صندوق انداختن رأی}{12}{subsubsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.5}فرآیند مشاهده نتایج و اطلاعات راجع به انتخابات}{12}{subsubsection.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.6}فرآیند راستی‌آزمایی رأی کاربر در انتخابات}{12}{subsubsection.2.1.6}%
+\contentsline {subsubsection}{\numberline {2.1.7}فرآیند درخواست پشتیبانی}{13}{subsubsection.2.1.7}%
+\contentsline {subsection}{\numberline {2.2}فرآیندهای مدیران انتخابات}{13}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}فرآیند راه‌اندازی و تنظمیات انتخابات}{13}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}فرآیند ثبت‌نام رأی‌دهندگان}{13}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}فرآیند احراز هویت رأی‌دهندگان}{14}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}فرآیند تولید توکن رمزنگاری شده}{14}{subsubsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.5}فرآیند مشاهده نتایج انتخابات}{15}{subsubsection.2.2.5}%
+\contentsline {subsubsection}{\numberline {2.2.6}ارسال نتایج نهایی و آمارهای مرتبط}{15}{subsubsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.3}فرآیندهای تأییدکنند‌گان \lr {POA} در شبکه بلاک‌چین}{15}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}فرآیندهای \lr {Boot Node}}{15}{subsection.2.4}%
+\contentsfinish 

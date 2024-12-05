@@ -1,0 +1,273 @@
+% !TEX TS-program = xelatex
+% !TeX root=Narmino_SE_Project_Proposal.tex
+
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{mathtools}
+
+\usepackage{geometry}
+\geometry{a4paper,hmargin=20mm,vmargin=25mm,head=3ex,foot=8ex}
+\usepackage{titlesec} %[newparttoc]
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage[usenames,dvipsnames]{color,xcolor}
+\usepackage{listings}
+\usepackage{fourier}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\usepackage[colorlinks=true, linkcolor=Blue,urlcolor=Blue,citecolor=Blue, pagebackref, linkbordercolor=Blue]{hyperref} %%%
+\usepackage{xurl}
+\usepackage{enumitem}
+\usepackage{float}
+%\usepackage{subcaption}
+\usepackage[font=small,skip=0pt]{caption}
+\usepackage{subfigure}
+%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{multirow,array}
+
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{realboxes}
+
+\usepackage{tikz}
+\usetikzlibrary{mindmap}
+
+\usepackage{xpatch}
+\xpretocmd\headrule{\color{Blue}}{}{\PatchFailed}
+%\newlength{\myheight}
+%\lfoot{}
+%\settoheight{\myheight}{\thepage}
+%\cfoot{\color{Blue}\thepage}
+\renewcommand\headrulewidth{3pt}
+%\renewcommand\footrulewidth{0pt}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% TOC
+
+\usepackage{titletoc}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[extrafootnotefeatures]{xepersian} %
+\settextfont{HM FMitra}   %{HM FMitra}
+\setdigitfont{HM FMitra}   %{HM FMitra}
+\setlatintextfont{Times New Roman} %[Scale=.9]
+\defpersianfont\titrfont{HM FMitra}   %{HM FMitra}
+%\paragraphfootnotes
+\usepackage{perpage}
+\MakePerPage{footnote}
+\linespread{1.6}
+
+
+
+\DeclarePairedDelimiter{\abs}{\lvert}{\rvert}
+%%%%%%%%%%%%%%%%%%
+\setlength{\footmarkwidth}{0pt}
+
+\setlength{\hsize}{\textwidth}
+\paragraphfootnotes
+%\makeatletter
+%\newif\ifLTRfootnoterule
+%\let\@footnotetext\m@mold@footnotetext
+%\gdef\mem@makecol{%
+%  \m@m@makecolintro
+%  \ifvoid\footins
+%  \ifvoid\footinsv@r\else \LTRfootnoteruletrue\fi
+%    \setbox\@outputbox \box\@cclv
+%  \else
+%    \m@mopfootnote
+%  \fi
+%  \m@mdoextrafeet
+%  \m@m@makecolfloats
+%  %\m@mopsidebar
+%  \m@m@makecoltext
+%  \global \maxdepth \@maxdepth
+%  }
+%\renewcommand*{\@footstartv@r}{%
+%    \vskip 3mm %\bigskipamount
+%    \leftskip=\z@
+%    \rightskip=\z@
+%    \ifLTRfootnoterule\footnoterule\fi}
+%\makeatother
+%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%
+%\setcounter{secnumdepth}{4}
+%\setcounter{tocdepth}{3}
+\newtcolorbox{SAMBox}[3]{colback=#1, colframe=#2, fonttitle=\bfseries,title={\LTR #3},breakable,enhanced}
+\newtcolorbox{SAMBoxP}[3]{colback=#1, colframe=#2, fonttitle=\bfseries,title={#3},breakable,enhanced}
+%%%%%%%%%%%%%%%%%
+
+
+%\lstset{ 
+%	language=Python,
+%  backgroundcolor=\color{red!10},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}; should come as last argument
+%  basicstyle=\fontsize{10}{10}\selectfont \tt,        % the size of the fonts that are used for the code
+%  breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+%  breaklines=true,                 % sets automatic line breaking
+%  captionpos=b,                    % sets the caption-position to bottom
+%  commentstyle=\color{purple!40!black},    % comment style
+%  deletekeywords={...},            % if you want to delete keywords from the given language
+%  escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+%  extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+%  frame=single,	                   % adds a frame around the code   %  frame=L,
+%  keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+%  keywordstyle=\color{blue},       % keyword style
+% % language=Octave,                 % the language of the code
+%  morekeywords={*,...},            % if you want to add more keywords to the set
+%  numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+%  numbersep=5pt,                   % how far the line-numbers are from the code
+%  numberstyle=\tiny\color{green!40!black}, % the style that is used for the line-numbers
+%  rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+%  showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+%  showstringspaces=false,          % underline spaces within strings only
+%%  showtabs=false,                  % show tabs within strings adding particular underscores
+%  stepnumber=1,                    % the step between two line-numbers. If it's 1, each line will be numbered
+%  stringstyle=\color{orange},     % string literal style
+%%  tabsize=2,	                   % sets default tabsize to 2 spaces
+%%  title=\lstname,                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+%%  belowcaptionskip=\baselineskip,
+%  xleftmargin=\parindent,
+%}
+
+
+
+\lstset{ 
+	language=C++,
+  	backgroundcolor=\color{red!10},  
+  	basicstyle=\fontsize{10}{10}\selectfont \tt,    
+ 	 breakatwhitespace=false,  
+  	breaklines=true,  
+ 	 captionpos=b,  
+	  commentstyle=\color{purple!40!black},    
+	  deletekeywords={...},          
+	  escapeinside={\%*}{*)},  
+	  extendedchars=true,  
+ 	 frame=single,	
+ 	 keepspaces=true,    
+ 	 keywordstyle=\color{blue},   
+ 	 morekeywords={*,...},        
+ 	 numbers=left, 
+  	numbersep=5pt,     
+ 	 numberstyle=\tiny\color{green!40!black}, 
+ 	 rulecolor=\color{black},  
+ 	 showspaces=false, 
+ 	 showstringspaces=false,   
+	%  showtabs=false,         
+ 	stepnumber=1,  
+	 stringstyle=\color{orange},    
+	%  tabsize=2,	 
+	%  title=\lstname,  
+	  %belowcaptionskip=\baselineskip,
+ 	 xleftmargin=0pt%\parindent,
+}
+
+
+\lstdefinestyle{DOS}
+{
+    backgroundcolor=\color{black},
+    basicstyle=\scriptsize\color{white}\ttfamily
+}
+
+
+
+
+\newcommand{\code}[1]{\lr{\lstinline{#1}}}
+
+%%%%%%%%%%%%%%%%%
+
+\definecolor{Blue}{rgb}{0,0,.55}
+\definecolor{Blue2}{rgb}{.55,0,.55}
+
+
+\titleformat{\section}
+{\color{Blue} \Large\bfseries}
+{\thesection}{1em}
+{}[\titlerule]
+
+\titleformat{\subsection}
+{\color{Blue} \large\bfseries}
+{\thesubsection}
+{1em}{}
+\titleformat{\subsubsection}
+{\color{Blue} \bfseries}
+{\thesubsubsection}
+{1em}{}
+
+
+
+%%TITLE TOC
+\titlecontents{part}[0pt]{\color{Blue}\large\bfseries\protect\addvspace{15pt}}%
+{}{\color{Blue}\partname{} }%
+{\color{Blue}\enspace\hfill\contentspage\enspace}%
+[\titlerule]
+
+
+
+%%%%%%%%%%%%%%%%%%%%%
+
+\newtheorem{theorem}{قضیه}[section]
+\newtheorem{lemma}[theorem]{لم}
+\newtheorem{proposition}[theorem]{گزاره}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{تعریف}
+\newtheorem{example}[theorem]{مثال}
+\newtheorem{remark}[theorem]{ملاحظه}
+\newtheorem{obs}[theorem]{مشاهده}
+\newtheorem{rull}[theorem]{قانون}
+\newtheorem*{namad}{نمادگذاری}
+
+%%%%%%%%%%%%%%%%%%%%
+
+\graphicspath{{Figs/}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+%\renewcommand\bibname{مراجع}
+\makeatletter
+\renewenvironment{thebibliography}[1]
+     {\section{مراجع}% <-- this line was changed from \chapter* to \section*
+      \@mkboth{\MakeUppercase\bibname}{\MakeUppercase\bibname}%
+      \list{\@biblabel{\@arabic\c@enumiv}}%
+           {\settowidth\labelwidth{\@biblabel{#1}}%
+            \leftmargin\labelwidth
+            \advance\leftmargin\labelsep
+            \@openbib@code
+            \usecounter{enumiv}%
+            \let\p@enumiv\@empty
+            \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+      \sloppy
+      \clubpenalty4000
+      \@clubpenalty \clubpenalty
+      \widowpenalty4000%
+      \sfcode`\.\@m}
+     {\def\@noitemerr
+       {\@latex@warning{Empty `thebibliography' environment}}%
+      \endlist}
+\makeatother
+
+
+
+%\usepackage{etoolbox}
+%\makeatletter
+%\patchcmd{\thebibliography}{%
+%  \chapter*{\bibname}\@mkboth{\MakeUppercase\bibname}{\MakeUppercase\bibname}}{%
+%  \section{مراجع}}{}{}
+%\makeatother
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\hex}[1]{\text{\lr{#1}}}
+\newcommand{\textttc}[1]{\textcolor{blue}{\lr{\texttt{#1}}}}
+\newcommand{\textttt}[1]{\lr{\texttt{#1}}}
+\newcommand{\cinline}[1]{\colorbox{black!20!white}{\lr{\lstinline{#1}}}}
+
+
+
+
+
+
+
+
+
