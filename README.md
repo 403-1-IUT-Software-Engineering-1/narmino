@@ -12,6 +12,6 @@ Our project was about the "Secure E-Voting System".
 - [x] requirements
   - [requirements](requirements/Narmino_SE_requirements.pdf)
 - [x] user story
-  - [user story](user story/Narmino_SE_user_story.pdf)
+  - [user story](user_story/Narmino_SE_user_story.pdf)
 - [x] use-case diagrams
-  - [use-case diagrams](use-case diagrams/)
+  - [use-case diagrams](use_case_diagrams/)
